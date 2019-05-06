@@ -77,3 +77,16 @@ Then make it executable
 ```bash
 sudo chmod 644 plexlogger.service
 ```
+
+Reload Daemon
+
+```bash
+sudo systemctl daemon-reload
+```
+
+Enable service at startup
+
+```bash
+sudo systemctl enable plexlogger.service
+```
+
